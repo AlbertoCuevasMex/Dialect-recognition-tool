@@ -1,14 +1,24 @@
 # Dialect-recognition-tool
-Tool generated for the MA's programme EMTTI.
-Run app on Streamlit
-Install Python and Streamlit beforehand
+Tool generated for the Master's programme European Master's in Technology for Translation and Interpreting
+How to run the tool:
 
-#First step: Open terminal. Write the location of the app file. 
-				Example -> cd "C:/Users/You/Desktop/Dialect recognition tool"
-#Second step: Run working environment. Write the following in the terminal
-				$ env\Scripts\activate
-				Output -> $(env)
-#Third step: Run lines. 
-				$(env) streamlit run app.py
-#Close the program. 
-				Ctrl + C
+First step: Install Python 3.10 
+
+Second step: Open terminal in the project folder
+
+Third step: Create environment, write in the command line
+	python -m venv env
+
+Fourth step: Activate environment
+	env\Scripts\activate
+
+Fifth step: Install dependencies
+	pip install -r requirements.txt
+
+Sixth step: Run streamlit app
+	streamlit run app.py
+
+Navigate the options to write your own sentence, use a test sentence from the evaluation set, or read 
+the general information.
+To close the program
+Ctrl + c
