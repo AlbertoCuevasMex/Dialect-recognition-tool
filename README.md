@@ -1,6 +1,6 @@
 # Dialect-recognition-tool
-Tool generated for the Master's programme European Master's in Technology for Translation and Interpreting
-How to run the tool:
+Tool generated for the Master's programme European Master's in Technology for Translation and Interpreting.
+How to run the tool after dowloading Zip file:
 
 First step: Install Python 3.10 
 
